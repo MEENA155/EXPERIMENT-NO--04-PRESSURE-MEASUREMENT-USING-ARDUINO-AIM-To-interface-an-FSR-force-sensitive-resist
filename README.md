@@ -75,11 +75,28 @@ The easiest way to measure a resistive sensor is to connect one end to power and
 10.	Plot the graph for the output voltage vs the resistance 
 
 
-### PROGRAM 
- *your roll no 
- * your name 
- * department and year 
+## PROGRAM 
+ your roll no :212221240028
+ your name :MEENA .S
+ department and year :AI&ML,2nd year
  
+ int sensorvalue =A0;
+
+void setup()
+{
+  Serial.begin(96000);
+}
+
+void loop()
+{
+  sensorvalue= analogRead(A0);
+  int newton=map(sensorvalue,0,466,0,10);
+  Serial.print("Raw value -");
+  Serial.println(sensorvalue);
+  Serial.print("force-");
+  Serial.println(newton);
+  delay(1000);
+}
  
  
  
