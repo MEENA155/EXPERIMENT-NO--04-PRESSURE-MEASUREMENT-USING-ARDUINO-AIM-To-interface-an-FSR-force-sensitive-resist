@@ -76,6 +76,7 @@ The easiest way to measure a resistive sensor is to connect one end to power and
 
 
 ## PROGRAM 
+```
  your roll no :212221240028
  your name :MEENA .S
  department and year :AI&ML,2nd year
@@ -99,20 +100,11 @@ void loop()
 }
  
  
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
+ ```
  
 
-![image](https://user-images.githubusercontent.com/36288975/188804653-a3154e8e-2655-46f2-9dcd-f425dd1ba109.png)
+![Screenshot (73)](https://user-images.githubusercontent.com/94677128/189496169-88da5be8-65c6-459a-8c68-150b21f9173e.png)
+
 
 
 ### TABLE -02 standard deviation table 
@@ -132,6 +124,10 @@ EX:           μ = (1+3+4+7+8) / 5 = 4.6
 σ = √[(1 - 4.6)2 + (3 - 4.6)2 + ... + (8 - 4.6)2)]/5
 σ = √(12.96 + 2.56 + 0.36 + 5.76 + 11.56)/5 = 2.577
 
+## OUTPUT:
+
+![Screenshot (75)](https://user-images.githubusercontent.com/94677128/189496282-a8bd213d-38af-45f9-be59-b1b030728d87.png)
+![Screenshot (76)](https://user-images.githubusercontent.com/94677128/189496306-8324c7dc-7f31-42eb-92f8-00a484690730.png)
 
 
 
@@ -144,6 +140,7 @@ EX:           μ = (1+3+4+7+8) / 5 = 4.6
 
 
 
+## RESULTS :
 
+Arduino uno is interfaced with FSR and output values are indicated on a graph.
 
-### RESULTS : Arduino uno is interfaced with FSR and output values are indicated on a graph.
